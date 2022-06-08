@@ -153,6 +153,8 @@ Public Class frmDetailDataGridView
     Private Sub txtSearch_KeyPress(sender As Object, e As System.Windows.Forms.KeyPressEventArgs) Handles txtSearch.KeyPress
         '// เมื่อกดคีย์ ENTER เพื่อเริ่มต้นการค้นหาข้อมูล
         If e.KeyChar = Chr(13) Then
+            '/ Replace some word for reserved in DataBase.
+            txtSearch.Text = txtSearch.Text.Replace("'", "").Replace("*", "").Replace("%", "")
             e.Handled = True    '// ปิดเสียง
             '/ สร้าง DataTable สมมุติขึ้นมา
             Dim DT As DataTable = GetDataTable()
