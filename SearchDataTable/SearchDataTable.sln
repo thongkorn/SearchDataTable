@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SearchDataTable", "SearchDataTable\SearchDataTable.vbproj", "{D88AF656-0948-4578-A347-1DD22E9D6887}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D88AF656-0948-4578-A347-1DD22E9D6887}.Debug|x86.ActiveCfg = Debug|x86
+		{D88AF656-0948-4578-A347-1DD22E9D6887}.Debug|x86.Build.0 = Debug|x86
+		{D88AF656-0948-4578-A347-1DD22E9D6887}.Release|x86.ActiveCfg = Release|x86
+		{D88AF656-0948-4578-A347-1DD22E9D6887}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
